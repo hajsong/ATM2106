@@ -1,0 +1,17 @@
+body {
+    font-family: Georgia;
+    /*font-size: 15px;*/
+    /*line-height: 1.728571;*/
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia;
+}
+
+table, th, td {
+    padding: 1px 8px 1px;
+}
+
+#banner{
+    height: 200px;
+}
