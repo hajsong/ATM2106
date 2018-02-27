@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Lecture 3 - ATM2106</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="https://hajsong.github.io/ATM2106/lecture_3.html">
+
+        <meta name="author" content="Hajoon Song" />
+        <meta name="keywords" content="python" />
+        <meta name="description" content="introduction to python" />
+
+        <meta property="og:site_name" content="ATM2106" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Lecture 3"/>
+        <meta property="og:url" content="https://hajsong.github.io/ATM2106/lecture_3.html"/>
+        <meta property="og:description" content="introduction to python"/>
+        <meta property="article:published_time" content="2018-03-05" />
+            <meta property="article:section" content="Week 1" />
+            <meta property="article:tag" content="python" />
+            <meta property="article:author" content="Hajoon Song" />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://hajsong.github.io/ATM2106/theme/css/bootstrap.simplex.min.css" type="text/css"/>
+    <link href="https://hajsong.github.io/ATM2106/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://hajsong.github.io/ATM2106/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="https://hajsong.github.io/ATM2106/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://hajsong.github.io/ATM2106/theme/css/style.css" type="text/css"/>
+        <link href="https://hajsong.github.io/ATM2106/static/custom.css" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://hajsong.github.io/ATM2106/" class="navbar-brand">
+ATM2106            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="https://hajsong.github.io/ATM2106/pages/syllabus.html">Syllabus</a></li>
+                    <li><a href="https://hajsong.github.io/ATM2106/lectures.html">Lectures</a></li>
+                    <li><a href="https://hajsong.github.io/ATM2106/pages/projects.html">Projects</a></li>
+                    <li><a href="https://hajsong.github.io/ATM2106/pages/links.html">Links</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="https://hajsong.github.io/ATM2106/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<style>
+	#banner{
+	    background-image:url("https://hajsong.github.io/ATM2106/images/img1banner.jpg");
+	}
+</style>
+
+<div id="banner">
+</div><!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="https://hajsong.github.io/ATM2106/lecture_3.html"
+                       rel="bookmark"
+                       title="Permalink to Lecture 3">
+                        Lecture 3
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2018-03-05T00:00:00+09:00"> Mon 05 March 2018</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="https://hajsong.github.io/ATM2106/tag/python.html">python</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h1>Basic introduction to python</h1>
+<p>adapted from 'data_containers.ipynb' by Eric Firing at Univ. of Hawaii</p>
+<p>Let's start with numbers.  </p>
+<h2>Numbers and Booleans</h2>
+<p>Python's system of numbers is quite simple: there are </p>
+<ul>
+<li>integers</li>
+<li>floating point numbers</li>
+<li>complex numbers</li>
+<li>Boolean (<code>True</code> or <code>False</code>) types  </li>
+</ul>
+<p>The types are determined dynamically, so operations involving integers and floating point numbers yield floating point numbers.</p>
+<div class="highlight"><pre><span></span><span class="k">print</span> <span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="k">print</span> <span class="mf">1.0</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>3
+3.0
+3
+</pre></div>
+
+
+<p>Division can be tricky because traditional computer languages use integer division on integers.  This was the case by default with Python 2.</p>
+<div class="highlight"><pre><span></span><span class="k">print</span> <span class="mi">4</span><span class="o">/</span><span class="mi">3</span>
+<span class="k">print</span> <span class="mf">4.0</span><span class="o">/</span><span class="mi">3</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>1
+1.33333333333
+</pre></div>
+
+
+<p>There are some built-in functions that operate on numbers, e.g.:</p>
+<div class="highlight"><pre><span></span><span class="k">print</span> <span class="nb">int</span><span class="p">(</span><span class="mi">4</span><span class="o">/</span><span class="mi">3</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">round</span><span class="p">(</span><span class="mi">4</span><span class="o">/</span><span class="mi">3</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">abs</span><span class="p">(</span><span class="mf">4.2</span> <span class="o">-</span> <span class="mi">5</span><span class="p">)</span> <span class="c1"># Note binary floating point inability</span>
+                   <span class="c1"># to represent a decimal number exactly.</span>
+<span class="k">print</span> <span class="nb">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>1
+1.0
+0.8
+8
+</pre></div>
+
+
+<p>The <code>pow()</code> function can be replaced by</p>
+<div class="highlight"><pre><span></span><span class="k">print</span> <span class="mi">2</span><span class="o">**</span><span class="mi">3</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>8
+</pre></div>
+
+
+<p>For more math functions, one can import the <code>math</code> module from the standard library:</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+<span class="k">print</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>0.841470984808
+1.41421356237
+</pre></div>
+
+
+<p>We will rarely use the <code>math</code> module, however, because <code>numpy</code> provides the same functionality and much more.</p>
+<p>Boolean values are either <code>True</code> or <code>False</code>, and result from conditional expressions like this:</p>
+<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="s2">&quot;1 &gt; 2 is&quot;</span><span class="p">,</span> <span class="mi">1</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;but 1 &lt; 2 is&quot;</span><span class="p">,</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>(&#39;1 &gt; 2 is&#39;, False, &#39;but 1 &lt; 2 is&#39;, True)
+</pre></div>
+
+
+<p>Here is a more complex conditional expression:</p>
+<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="mi">1</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="ow">or</span> <span class="mi">3</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>True
+</pre></div>
+
+
+<h2>Strings</h2>
+<p>Python strings can be created with the <code>str()</code> function, and as literals using single quotes, double quotes, triple single quotes, or triple double quotes.  The triples can enclose blocks of text spanning multiple lines. The following are all valid strings, each assigned to a variable name:</p>
+<div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="s1">&#39;Single quotes&#39;</span>
+<span class="n">b</span> <span class="o">=</span> <span class="s2">&quot;Double quotes&quot;</span>
+<span class="n">c</span> <span class="o">=</span> <span class="s2">&quot;a string that has &#39;single quotes&#39; inside it&quot;</span>
+<span class="n">d</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;This is a multiline</span>
+<span class="s2">sentence string, ending with a linefeed.</span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="n">e</span> <span class="o">=</span> <span class="s1">&#39;&#39;&#39;</span>
+<span class="s1">This is also valid. It starts and ends with a linefeed.</span>
+<span class="s1">&#39;&#39;&#39;</span>
+<span class="k">for</span> <span class="n">example</span> <span class="ow">in</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">example</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>Single quotes
+Double quotes
+a string that has &#39;single quotes&#39; inside it
+This is a multiline
+sentence string, ending with a linefeed.
+
+3
+</pre></div>
+
+
+<p>Strings can be added (concatenated):</p>
+<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="n">d</span> <span class="o">+</span> <span class="n">e</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>This is a multiline
+sentence string, ending with a linefeed.
+
+This is also valid. It starts and ends with a linefeed.
+</pre></div>
+
+
+<h2>Sequences: tuples and lists</h2>
+<p>Tuples and lists are very general sequences--that is, they are containers that preserve order, and they can contain any kind of object at all.  There is one big practical difference: tuples are <em>immutable</em>, lists are <em>mutable</em>. </p>
+<p>To create a tuple from scratch, use round parentheses and commas.</p>
+<div class="highlight"><pre><span></span><span class="n">t1</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">t2</span> <span class="o">=</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="s2">&quot;some string&quot;</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">t1</span>
+<span class="k">print</span> <span class="n">t2</span>
+<span class="k">print</span> <span class="n">t1</span><span class="o">+</span><span class="n">t2</span>
+<span class="k">print</span> <span class="n">t1</span><span class="o">*</span><span class="mi">2</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>(1, 2)
+(3, (4, 5), 7, 8, &#39;some string&#39;)
+(1, 2, 3, (4, 5), 7, 8, &#39;some string&#39;)
+(1, 2, 1, 2)
+</pre></div>
+
+
+<p>Lists have many methods, and support addition and multiplication:</p>
+<div class="highlight"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;list1&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;list2&quot;</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="k">print</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="k">print</span> <span class="n">a</span> <span class="o">*</span> <span class="mi">2</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>     <span class="c1"># &#39;extend&#39; adds elements to the end (assigning to c only to suppress printing)</span>
+<span class="k">print</span> <span class="n">a</span>             <span class="c1"># This is identical to the sum, a + b, above.</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>     <span class="c1"># &#39;append&#39; addes the argument as a whole</span>
+<span class="k">print</span> <span class="n">a</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="k">[&#39;list1&#39;, 1, 2, &#39;list2&#39;, 3, 4]</span>
+<span class="k">[&#39;list1&#39;, 1, 2, &#39;list1&#39;, 1, 2]</span>
+<span class="k">[&#39;list1&#39;, 1, 2, &#39;list2&#39;, 3, 4]</span>
+<span class="k">[&#39;list1&#39;, 1, 2, &#39;list2&#39;, 3, 4, [&#39;list2&#39;, 3, 4]]</span>
+</pre></div>
+
+
+<h2>Sequences: indexing</h2>
+<p>Lists, tuples, and strings all support the same indexing syntax.</p>
+<ul>
+<li>Python indexing starts from zero.</li>
+<li>A sequence of N elements therefore has indices ranging from 0 through N-1.</li>
+<li>Negative indices count backwards from the end; they are handled by adding N to the negative index, so -1 is the last element, -2 the one before that, etc.</li>
+<li>Basic indexing accesses a single element or a range (<em>slice</em>).</li>
+<li>A slice <em>includes</em> the start of a range but <em>excludes</em> the end.</li>
+<li>A slice has an optional step, for subsampling a range.</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="c1"># Using the built-in &quot;range&quot; function,</span>
+<span class="c1"># make a list on which we can practice indexing:</span>
+<span class="n">x</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="k">print</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="k">[0, 10, 20, 30, 40, 50, 60, 70, 80, 90]</span>
+<span class="k">[0, 10, 20, 30, 40, 50, 60, 70, 80, 90]</span>
+</pre></div>
+
+
+<p>Take the first 5 values, then the last 5 values:</p>
+<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="o">-</span><span class="mi">5</span><span class="p">:])</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="k">[0, 10, 20, 30, 40]</span>
+<span class="k">[50, 60, 70, 80, 90]</span>
+</pre></div>
+
+
+<p>See how easy that was?
+Now take every second value starting from the second (index 1):</p>
+<div class="highlight"><pre><span></span><span class="k">print</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span><span class="k">[10, 30, 50, 70, 90]</span>
+<span class="k">[40, 30, 20, 10, 0]</span>
+</pre></div>
+
+
+<p>In the above examples we are indexing a list with a slice, so we are getting a list back, even if it has only one element in it, or if it is empty.  If we want to get an element from the list, then we index with a single integer:</p>
+<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+
+
+<div class="highlight"><pre><span></span>0
+90
+</pre></div>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2018 Hajoon Song
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://hajsong.github.io/ATM2106/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://hajsong.github.io/ATM2106/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://hajsong.github.io/ATM2106/theme/js/respond.min.js"></script>
+
+
+    <script src="https://hajsong.github.io/ATM2106/theme/js/bodypadding.js"></script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-113704256-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+
+
+</body>
+</html>
