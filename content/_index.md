@@ -8,7 +8,7 @@ Atmosphere-Ocean interaction
 
 #### Course Description
 
-The atmosphere and ocean control the earth climate system by transporting energy, heat, momentum and gas, as well as exchanging them across two components. Air-sea Interaction (ATM2106) course examines the influence of atmospheric circulation on the ocean, or oceanic circulation on atmosphere, and tries to understand the climate system based on the circulation of two bodies and their interactions. This course covers the circulation and interactions in low/mid/high latitudes and small/large scales.
+The atmosphere and ocean control the earth climate system by transporting energy, heat, momentum and gas, as well as exchanging them across two components. Air-sea Interaction (ATM2106) course examines the influence of atmospheric circulation on the ocean, or oceanic circulation on the atmosphere, and tries to understand the climate system based on the circulation of two bodies and their interactions. This course covers the circulation and interactions in low/mid/high latitudes and small/large scales.
 
 #### Instructor
 
@@ -24,10 +24,14 @@ The atmosphere and ocean control the earth climate system by transporting energy
 
 #### Class
 + Science Hall #523
-+ MW 3:00 pm - 4:55 pm
++ Lecture : M 3:00 - 4:50 pm, W 3:00 - 4:00 pm
++ TA lecture : W 4:00 pm - 4:50 pm
+
+#### Office hours
+Both Chunil and Hajoon will be happy to have office hours by appointment. Please email us!
 
 #### Target students
-This course may be appropriate for students in the sophomore or junior year who want to gain basic knowledge about the circulation in atmosphere and ocean and the interactions between two bodies.
+This course is appropriate for students in the sophomore or junior year who want to gain basic knowledge about the circulation in atmosphere and ocean and the interactions between two bodies.
 
 #### The objective
 Upon the completion of this course, students will grasp the concept of atmospheric and oceanic circulations in the rotating earth. Then students will explain the current climate patterns and contemporary climate phenomena using the learnings from the classes. This descriptive course also provides an introduction to upper-level classes in the Department of Atmospheric Sciences.

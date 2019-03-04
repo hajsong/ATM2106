@@ -5,8 +5,4 @@ weight = 2
 chapter = true
 +++
 
-### Chapter X
-
-# Some Chapter title
-
-Lorem Ipsum.
+#### Lecture materials will be uploaded in the course of the semester.

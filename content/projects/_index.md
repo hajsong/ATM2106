@@ -2,7 +2,7 @@
 title = "Projects"
 date = 2019-03-01T23:56:26+09:00
 weight = 3
-chapter = true
+chapter = false
 +++
 
 ### The great Pacific garbage patch
@@ -56,6 +56,14 @@ For example, the mean air-sea CO<sub>2</sub> map reveals that the ocean emits CO
 What determines this spatial patterns?
 <br>
 <br>
+
+### Particulate Matter (PM) and seasons
+It became normal to monitor the air quality before starting the day.
+The particulate matter (PM) data in the Seoul Metropolitan Area shows an interesting temporal evolution.
+The PM level has been continuously decreased since 2000 before it starts to go up after 2012.
+How could we understand and interpret this trend?
+![pm10](../images/pm10_ts.png)  
+(Fig. 1 in Kim et al. (2017), Scientific Reports)
 
 ### Your own projects
 -------------------------

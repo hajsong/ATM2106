@@ -5,8 +5,4 @@ weight = 4
 chapter = true
 +++
 
-### Chapter X
-
-# Some Chapter title
-
-Lorem Ipsum.
+#### Homework will be uploaded in the course of the semester.

@@ -1,9 +1,13 @@
-+++
-title = "Syllabus"
-date = 2019-03-01T13:54:27+09:00
-weight = 1
-chapter = false
-+++
+---
+title : "Syllabus"
+date : 2019-03-01T13:54:27+09:00
+weight : 1
+chapter : false
+---
+
+{{% notice note %}}
+This is a tentative schedule and can be changed as we progress the semester.
+{{% /notice %}}
 
 <table style="width:95%; max-width:1000px; margin-left: auto; margin-right: auto;">
     <tr>
