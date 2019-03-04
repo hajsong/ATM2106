@@ -11,7 +11,7 @@
 	"title": "Lectures",
 	"tags": [],
 	"description": "",
-	"content": " Chapter X Some Chapter title Lorem Ipsum.\n"
+	"content": " Lecture materials will be uploaded in the course of the semester. "
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/projects/",
@@ -25,7 +25,14 @@
 	"title": "Homework",
 	"tags": [],
 	"description": "",
-	"content": " Chapter X Some Chapter title Lorem Ipsum.\n"
+	"content": " Homework will be uploaded in the course of the semester. "
+},
+{
+	"uri": "https://hajsong.github.io/ATM2106/python/",
+	"title": "Python",
+	"tags": [],
+	"description": "",
+	"content": " Python Python is a programing language that becomes very popular in many areas. The earth sciences field is not an exception.\nInstall the theme Install the Hugo-theme-learn theme by following this documentation\nThis theme\u0026rsquo;s repository is: https://github.com/matcornic/hugo-theme-learn.git\nAlternatively, you can download the theme as .zip file and extract it in the themes directory\n"
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/links/",
