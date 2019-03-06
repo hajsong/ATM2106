@@ -1,5 +1,12 @@
 [
 {
+	"uri": "https://hajsong.github.io/ATM2106/lectures/week1/",
+	"title": "First Week",
+	"tags": [],
+	"description": "",
+	"content": " Subject Introduction to the course and characteristics of atmosphere\nReading Chapter 0 and 1 in the textbook\n  Lecture Slides   fluid_on_earth.pdf  (1900 ko)    "
+},
+{
 	"uri": "https://hajsong.github.io/ATM2106/syllabus/",
 	"title": "Syllabus",
 	"tags": [],
@@ -11,7 +18,7 @@
 	"title": "Lectures",
 	"tags": [],
 	"description": "",
-	"content": " Lecture materials will be uploaded in the course of the semester. "
+	"content": " Lectures Lecture materials will be uploaded weekly.\n"
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/projects/",
