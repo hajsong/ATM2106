@@ -5,4 +5,5 @@ weight = 2
 chapter = true
 +++
 
-#### Lecture materials will be uploaded in the course of the semester.
+# Lectures
+Lecture materials will be uploaded weekly.

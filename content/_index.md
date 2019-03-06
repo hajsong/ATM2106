@@ -37,7 +37,7 @@ This course is appropriate for students in the sophomore or junior year who want
 Upon the completion of this course, students will grasp the concept of atmospheric and oceanic circulations in the rotating earth. Then students will explain the current climate patterns and contemporary climate phenomena using the learnings from the classes. This descriptive course also provides an introduction to upper-level classes in the Department of Atmospheric Sciences.
 
 #### Prerequisite
-None
+None, but the background in math and sciences is recommended.
 
 #### Grading
 + Homework : 30%
