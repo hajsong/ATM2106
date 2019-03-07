@@ -6,7 +6,7 @@ weight = 1
 
 #### Subject
 
-Introduction to the course and characteristics of atmosphere
+Introduction to the course and characteristics of the atmosphere
 
 #### Reading
 Chapter 0 and 1 in the textbook
