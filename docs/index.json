@@ -1,7 +1,7 @@
 [
 {
 	"uri": "https://hajsong.github.io/ATM2106/lectures/week1/",
-	"title": "First Week",
+	"title": "Week 1",
 	"tags": [],
 	"description": "",
 	"content": " Subject Introduction to the course and characteristics of the atmosphere\nReading Chapter 0 and 1 in the textbook\n  Lecture Slides   fluid_on_earth.pdf  (1900 ko)    Link to the videos See in the webpage, \u0026ldquo;Weather in a Tank\u0026rdquo;   Movies   Earth Observatory - Water Vapor Animation.mp4  (1540 ko)    "
@@ -14,11 +14,25 @@
 	"content": "This is a tentative schedule and can be changed as we progress the semester.\n  week  content  lecture note  homework    1   Preview of the course      2   Introduction to coupled atmosphere-ocean system: Energy budget      3   Introduction to coupled atmosphere-ocean system: Atmosphere      4   The general circulation of the atmosphere      5   Introduction to coupled atmosphere-ocean system: Ocean      6   Boundary layer      7   The wind-driven ocean circulation      7   The thermohaline ocean circulation      8   Midterm Exam      9   Air-sea interaction: Monsoon      10   Air-sea interaction: Tropics      11   Air-sea interaction: Extratropics      12   Air-sea interaction: Poles      13   Air-sea interaction: gas exchange      14   Presentation      15   Review      16   Final exam      "
 },
 {
+	"uri": "https://hajsong.github.io/ATM2106/lectures/week2/",
+	"title": "Week 2",
+	"tags": [],
+	"description": "",
+	"content": " Subject The radiative energy budget on earth.\nReading Chapter 2 in the textbook\n  Lecture Slides   energybudget.pdf  (1500 ko)   energybudget_2.pdf  (800 ko)    The link to the python file (Google Colaboratory) This link give you the page that is not editable. (READ only) To actually run the code, you need to copy to your Google drive.\n"
+},
+{
 	"uri": "https://hajsong.github.io/ATM2106/lectures/",
 	"title": "Lectures",
 	"tags": [],
 	"description": "",
 	"content": " Lectures Lecture materials will be uploaded weekly.\n"
+},
+{
+	"uri": "https://hajsong.github.io/ATM2106/lectures/week3/",
+	"title": "Week 3",
+	"tags": [],
+	"description": "",
+	"content": " Subject Convection\nReading Chapter 3 and 4 in the textbook\n  Lecture Slides   vertical_structure.pdf  (2025 ko)    "
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/projects/",
@@ -33,13 +47,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Homework will be uploaded in the course of the semester. "
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week2/",
-	"title": "The second week",
-	"tags": [],
-	"description": "",
-	"content": " Subject The radiative energy budget on earth.\nReading Chapter 2 in the textbook\n  Lecture Slides   energybudget.pdf  (1500 ko)   energybudget_2.pdf  (800 ko)    The link to the python file (Google Colaboratory) This link give you the page that is not editable. (READ only) To actually run the code, you need to copy to your Google drive.\n"
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/python/",
