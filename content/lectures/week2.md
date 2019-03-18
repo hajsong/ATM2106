@@ -1,7 +1,7 @@
 +++
-title = "The second week"
+title = "Week 2"
 date = 2019-03-11T14:22:41+09:00
-weight = 5
+weight = 2
 chapter = false
 +++
 
