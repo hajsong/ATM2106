@@ -6,10 +6,22 @@
     <description>Recent content in ATM2106 on air-sea interactions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 07 Mar 2019 07:17:29 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 17:09:59 +0900</lastBuildDate>
     
 	<atom:link href="https://hajsong.github.io/ATM2106/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Homework 1</title>
+      <link>https://hajsong.github.io/ATM2106/homework/homework_1/</link>
+      <pubDate>Mon, 18 Mar 2019 17:09:59 +0900</pubDate>
+      
+      <guid>https://hajsong.github.io/ATM2106/homework/homework_1/</guid>
+      <description>Computing the zonally averaged shortwave / longwave radiation for January and July
+You can find the instruction of the homework and the example from the following link: https://colab.research.google.com/drive/1ixTv-Ov1xVFpM1q0aDjO_FyhLDB6i7gd
+If you click the link, you may be asked to log in. Then log in Google Colaboratory with your Yonsei email.
+If you are comfortable with other programming languages, please feel free to use them. The data file for Matlab can be obtained from:</description>
+    </item>
     
     <item>
       <title>Week 1</title>

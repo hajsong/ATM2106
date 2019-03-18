@@ -1,5 +1,12 @@
 [
 {
+	"uri": "https://hajsong.github.io/ATM2106/homework/homework_1/",
+	"title": "Homework 1",
+	"tags": [],
+	"description": "",
+	"content": "Computing the zonally averaged shortwave / longwave radiation for January and July\nYou can find the instruction of the homework and the example from the following link: https://colab.research.google.com/drive/1ixTv-Ov1xVFpM1q0aDjO_FyhLDB6i7gd\nIf you click the link, you may be asked to log in. Then log in Google Colaboratory with your Yonsei email.\nIf you are comfortable with other programming languages, please feel free to use them. The data file for Matlab can be obtained from:\n OLR data SWR data  The due date is March 27th (3\u0026frasl;27).\nPlease send the link of your Jupyter notebook page or the pdf to TA.\nIf there are any issues regarding the link to the Jupyter notebook file or data, please email me.\n"
+},
+{
 	"uri": "https://hajsong.github.io/ATM2106/lectures/week1/",
 	"title": "Week 1",
 	"tags": [],
