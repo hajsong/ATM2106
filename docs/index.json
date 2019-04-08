@@ -77,6 +77,13 @@
 	"content": " Python Python is a programing language that becomes very popular in many areas. The earth sciences field is not an exception. If you want specific reason for the choice of Python in this class, here they are.\n Python has been gaining solid ground in earth sciences community. Python is light, efficient and fast! Python is free!  Python up there.. Python is free and has been distributed in many different ways. One of the most popular and recommended way to obtain it is through Anaconda software distribution, which provides platform-independent package management for Python and other software in self-contained user-specific environments.\nHowever, I want to explore cloud-based python environments like Colaboratory by Google. The main advantage of using online service is that you do not have to spend your time to install Python and configure its setting to be consistent with the one I propose. Also, everyone in the class will be on the same environments so that we are all share how we solve the problem without worrying about whether this will work on other systems.\nI have experienced a clould-based Python environment but not Colaboratory. So I hope that we all get to learn how to efficiently use this platform that, I think, becomes a major trend in computer sciences.\nEnough said. Let\u0026rsquo;s dive into Google Colaboratory!\nHow to set up your acount on Google Colaboratory  Create an account (possibly your Yonsei email account works well). Create a new Jupyter notebook. Save it. Check if your saved file is in your Google Drive.  "
 },
 {
+	"uri": "https://hajsong.github.io/ATM2106/lectures/week6/",
+	"title": "Week ",
+	"tags": [],
+	"description": "",
+	"content": " Subject Balanced flows\nReading Chapter 7 in the textbook\n  Lecture Slides   balanced_flow.pdf  (6903 ko)    "
+},
+{
 	"uri": "https://hajsong.github.io/ATM2106/links/",
 	"title": "Links",
 	"tags": [],
@@ -88,7 +95,7 @@
 	"title": "TA class lecture notes",
 	"tags": [],
 	"description": "",
-	"content": "  Lecture Slides   Lecture1_TA(final).pdf  (10537 ko)   Lecture2_TA_pdf.pdf  (3795 ko)   Lecture3_TA_pdf.pdf  (12834 ko)   Lecture3_TA_pdf_1.pdf  (12697 ko)    "
+	"content": "  Lecture Slides   Lecture1_TA(final).pdf  (10537 ko)   Lecture2_TA_pdf.pdf  (3795 ko)   Lecture3_TA_pdf_1.pdf  (12697 ko)    "
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/",
