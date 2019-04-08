@@ -35,6 +35,20 @@ Reading Chapter 0 and 1 in the textbook
     </item>
     
     <item>
+      <title>Homework 2</title>
+      <link>https://hajsong.github.io/ATM2106/homework/homework_2/</link>
+      <pubDate>Mon, 08 Apr 2019 17:27:21 +0900</pubDate>
+      
+      <guid>https://hajsong.github.io/ATM2106/homework/homework_2/</guid>
+      <description>Estimating geostrophic zonal wind using thermal wind equation
+You can find the instruction of the homework and the example from here
+If you are comfortable with other programming languages, please feel free to use them. The data file for Matlab can be obtained from:
+ data  The due date is April 17th.
+Please send the link of your Jupyter notebook page or the pdf to TA.
+If there are any issues regarding the link to the Jupyter notebook file or data, please email me.</description>
+    </item>
+    
+    <item>
       <title>Week 2</title>
       <link>https://hajsong.github.io/ATM2106/lectures/week2/</link>
       <pubDate>Mon, 11 Mar 2019 14:22:41 +0900</pubDate>

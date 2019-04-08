@@ -21,6 +21,13 @@
 	"content": "This is a tentative schedule and can be changed as we progress the semester.\n  week  content  lecture note  homework    1   Preview of the course      2   Introduction to coupled atmosphere-ocean system: Energy budget      3   Introduction to coupled atmosphere-ocean system: Atmosphere      4   The general circulation of the atmosphere      5   Introduction to coupled atmosphere-ocean system: Ocean      6   Boundary layer      7   The wind-driven ocean circulation      7   The thermohaline ocean circulation      8   Midterm Exam      9   Air-sea interaction: Monsoon      10   Air-sea interaction: Tropics      11   Air-sea interaction: Extratropics      12   Air-sea interaction: Poles      13   Air-sea interaction: gas exchange      14   Presentation      15   Review      16   Final exam      "
 },
 {
+	"uri": "https://hajsong.github.io/ATM2106/homework/homework_2/",
+	"title": "Homework 2",
+	"tags": [],
+	"description": "",
+	"content": "Estimating geostrophic zonal wind using thermal wind equation\nYou can find the instruction of the homework and the example from here\nIf you are comfortable with other programming languages, please feel free to use them. The data file for Matlab can be obtained from:\n data  The due date is April 17th.\nPlease send the link of your Jupyter notebook page or the pdf to TA.\nIf there are any issues regarding the link to the Jupyter notebook file or data, please email me.\n"
+},
+{
 	"uri": "https://hajsong.github.io/ATM2106/lectures/week2/",
 	"title": "Week 2",
 	"tags": [],
