@@ -25,7 +25,7 @@
 	"title": "Homework 2",
 	"tags": [],
 	"description": "",
-	"content": " Estimating geostrophic zonal wind using thermal wind equation\nYou can find the instruction of the homework and the example from here\nIf you are comfortable with other programming languages, please feel free to use them. The data file for Matlab can be obtained from:\n data  The due date is April 17th.\nPlease send the link of your Jupyter notebook page or the pdf to TA.\nIf there are any issues regarding the link to the Jupyter notebook file or data, please email me.\nMore information from TA about this homework (in Korean): HW#2 질문 답변 및 추가내용 - 온도풍이란? =\u0026gt; 두 등압면 사이의 지균풍의 차이\u2028(상층 지균풍과 하층 지균풍의 벡터차이) - HW#2에서 지균풍을 계산할 때 pdf에 나와있는 온도풍 방정식을 사용하여 상층(200mb)과 하층(1000mb)의 차이를 계산하면 됩니다!\u2028- 하층 지균풍은 0으로 가정\u2028- dT/dy 연직온도경도는 두 등압면 사이의 평균값으로 사용(상수)\n참고사항 - T_u_inp.mat 파일이 업데이트 되었습니다. - Python 외 matlab이나 다른 프로그램을 사용하는 학생들은 업데이트된 파일을 이용해주세요!\n"
+	"content": " Estimating geostrophic zonal wind using thermal wind equation\nYou can find the instruction of the homework and the example from here\nIf you are comfortable with other programming languages, please feel free to use them. The data file for Matlab can be obtained from:\n data  The due date is April 17th.\nPlease send the link of your Jupyter notebook page or the pdf to TA.\nIf there are any issues regarding the link to the Jupyter notebook file or data, please email me.\nMore information from TA about this homework (in Korean): HW#2 질문 답변 및 추가내용\n 온도풍이란? =\u0026gt; 두 등압면 사이의 지균풍의 차이\u2028(상층 지균풍과 하층 지균풍의 벡터차이) HW#2에서 지균풍을 계산할 때 pdf에 나와있는 온도풍 방정식을 사용하여 상층(200mb)과 하층(1000mb)의 차이를 계산하면 됩니다!\u2028 하층 지균풍은 0으로 가정\u2028 dT/dy 연직온도경도는 두 등압면 사이의 평균값으로 사용(상수)  참고사항\n T_u_inp.mat 파일이 업데이트 되었습니다. Python 외 matlab이나 다른 프로그램을 사용하는 학생들은 업데이트된\u2028파일을 이용해주세요!  "
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/lectures/week2/",
@@ -85,7 +85,7 @@
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/lectures/week6/",
-	"title": "Week ",
+	"title": "Week 6",
 	"tags": [],
 	"description": "",
 	"content": " Subject Balanced flows\nReading Chapter 7 in the textbook\n  Lecture Slides   balanced_flow.pdf  (6903 ko)    "
@@ -96,6 +96,13 @@
 	"tags": [],
 	"description": "",
 	"content": " You may find these online materials helpful.\nLink to the textbook webpage Atmosphere, Ocean, and Climate Dynamics\nComputing program  Python Google Colaboratory Jupyter Notebook Programming in Meteorology  "
+},
+{
+	"uri": "https://hajsong.github.io/ATM2106/lectures/week7/",
+	"title": "Week 7",
+	"tags": [],
+	"description": "",
+	"content": " Subject General circulation of the atmosphere\nReading Chapter 8 in the textbook\n  Lecture Slides   atmos_circ.pdf  (11026 ko)    "
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/lectures/taclass/",
