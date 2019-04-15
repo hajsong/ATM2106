@@ -1,5 +1,5 @@
 +++
-title = "Week "
+title = "Week 6"
 date = 2019-04-08T14:48:30+09:00
 weight = 6
 chapter = false
