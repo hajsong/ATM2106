@@ -25,6 +25,7 @@ If there are any issues regarding the link to the Jupyter notebook file or data,
 - 온도풍이란? => 두 등압면 사이의 지균풍의 차이  (상층 지균풍과 하층 지균풍의 벡터차이)
 - HW#2에서 지균풍을 계산할 때 pdf에 나와있는 온도풍 방정식을 사용하여 상층(200mb)과 하층(1000mb)의 차이를 계산하면 됩니다! 
 - 하층 지균풍은 0으로 가정 
+- dT값은 해당 위도 1000mb ~ 200mb에서의 평균 온도값 사용 
 - dT/dy 연직온도경도는 두 등압면 사이의 평균값으로 사용(상수)
 
 **참고사항**
