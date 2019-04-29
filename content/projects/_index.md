@@ -76,13 +76,14 @@ You can choose the subject of the project. Possible subjects are
 
 ### Project teams
 -------------------------
-**Team A** : 오일섭, 박산울, 조우진, 김지수  
-**Team B** : 권혁도, 박상욱, 최성희, 박소은  
-**Team C** : 김관우, 백세인, 가웅현, 최은기  
-**Team D** : 김민영, 서원범, 선우효준, 최정수  
-**Team E** : 김정우, 신다빈, 이민재, 안현규  
-**Team F** : 문준영, 유승민, 이예지  
+**Team A** : 오일섭, 박산울, 조우진, 김지수     : sea level
+**Team B** : 권혁도, 박상욱, 최성희, 박소은
+**Team C** : 김관우, 백세인, 가웅현, 최은기
+**Team D** : 김민영, 서원범, 선우효준, 최정수
+**Team E** : 김정우, 신다빈, 이민재, 안현규
+**Team F** : 문준영, 유승민, 이예지            : sea ice
 **Team G** : 박민주, 이지현, 곽수지
+
 
 Please get together with your team members and discuss what topic your group want to explore.
 You can pick any topics above or find your own topic.
