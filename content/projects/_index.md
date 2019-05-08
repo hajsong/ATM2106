@@ -79,7 +79,7 @@ You can choose the subject of the project. Possible subjects are
 **Team A** : 오일섭, 박산울, 조우진, 김지수     : sea level  
 **Team B** : 권혁도, 박상욱, 최성희, 박소은     : Hurricane  
 **Team C** : 김관우, 백세인, 가웅현, 최은기     : ozone hole   
-**Team D** : 김민영, 서원범, 선우효준, 최정수  
+**Team D** : 김민영, 서원범, 선우효준, 최정수  : carbon dioxide  
 **Team E** : 김정우, 신다빈, 이민재, 안현규    : PM and seasons   
 **Team F** : 문준영, 유승민, 이예지            : sea ice  
 **Team G** : 박민주, 이지현, 곽수지            : The great Pacific garbage patch  
