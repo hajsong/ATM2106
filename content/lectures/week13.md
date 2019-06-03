@@ -9,8 +9,6 @@ chapter = false
 
 Climate variability and monsoon
 
-#### Reading
-
-Chapter 12
+#### Lecture notes
 
 {{%attachments title="Lecture Slides" pattern=".*(pdf)"/%}}
