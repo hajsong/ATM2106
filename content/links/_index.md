@@ -13,6 +13,7 @@ You may find these online materials helpful.
 
 #### Computing program
 -----------------------
++ [Programming in Meteorology in Fall 2018](https://hajsong.github.io/ATM4110/)
 + [Python](https://www.python.org)
 + [Google Colaboratory](https://colab.research.google.com)
 + [Jupyter Notebook](http://jupyter.org)

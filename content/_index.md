@@ -8,7 +8,7 @@ Atmosphere-Ocean interaction
 
 #### Course Description
 
-The atmosphere and ocean control the earth climate system by transporting energy, heat, momentum and gas, as well as exchanging them across two components. Air-sea Interaction (ATM2106) course examines the influence of atmospheric circulation on the ocean, or oceanic circulation on the atmosphere, and tries to understand the climate system based on the circulation of two bodies and their interactions. This course covers the circulation and interactions in low/mid/high latitudes and small/large scales.
+The atmosphere and ocean control the earth climate system by transporting energy, heat, momentum and gas, as well as exchanging them across two components. Atmospheric and Oceanic Circulation (ATM2106) course aims to understand the circulation of the air and sea, and the climate system as a whole. This course will use both classical type of lectures and the state-of-the-art computer programming language such as Python to enhance the learning experience.
 
 #### Instructor
 
@@ -18,17 +18,17 @@ The atmosphere and ocean control the earth climate system by transporting energy
 * telephone : 02-2123-2579
 
 #### Teaching assistant
-+ [Namgung Chunil](http://airsea.yonsei.ac.kr/group/chunilnamgung/#anchor)
++ [Ajin Cho](http://airsea.yonsei.ac.kr/group/ajincho/#anchor)
 + Office : Science Hall #532
-+ email : silvan@yonsei.ac.kr
++ email : ajin05@yonsei.ac.kr
 
 #### Class
 + Science Hall #523
-+ Lecture : M 3:00 - 4:50 pm, W 3:00 - 4:00 pm
-+ TA lecture : W 4:00 pm - 4:50 pm
++ Lecture : Tue 16:00 - 17:50, Thu 14:00 - 14:50
++ TA lecture : Thu 15:00 - 15:50
 
 #### Office hours
-Both Chunil and Hajoon will be happy to have office hours by appointment. Please email us!
+Both Ajin and Hajoon will be happy to have office hours by appointment. Please email us!
 
 #### Target students
 This course is appropriate for students in the sophomore or junior year who want to gain basic knowledge about the circulation in atmosphere and ocean and the interactions between two bodies.

@@ -24,46 +24,40 @@ This is a tentative schedule and can be changed as we progress the semester.
     </tr>
     <tr>
         <td style="text-align:center"> 2 </td>
-        <td> Introduction to coupled atmosphere-ocean system: Energy budget </td>
+            <td> A quick introduction to Python </td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
     </tr>
     <tr>
         <td style="text-align:center"> 3 </td>
-        <td> Introduction to coupled atmosphere-ocean system: Atmosphere  </td>
+        <td> The global energy budget </td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
     </tr>
     <tr>
         <td style="text-align:center"> 4 </td>
-        <td> The general circulation of the atmosphere  </td>
+        <td> The atmosphere: vertical structure and stability  </td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
     </tr>
     <tr>
         <td style="text-align:center"> 5 </td>
-        <td> Introduction to coupled atmosphere-ocean system: Ocean  </td>
+        <td> The atmosphere: mean states  </td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
     </tr>
     <tr>
         <td style="text-align:center"> 6 </td>
-        <td> Boundary layer </td>
+        <td> The equation of motion </td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
     </tr>
     <tr>
         <td style="text-align:center"> 7 </td>
-        <td> The wind-driven ocean circulation </td>
+        <td> The balanced flow </td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
     </tr>
-    <!--tr>
-        <td style="text-align:center"> 7 </td>
-        <td> The thermohaline ocean circulation </td>
-        <td style="text-align:center"></td>
-        <td style="text-align:center"></td>
-    </tr-->
     <tr>
         <td style="text-align:center"> 8 </td>
         <td> Midterm Exam   </td>
@@ -72,43 +66,43 @@ This is a tentative schedule and can be changed as we progress the semester.
     </tr>
     <tr>
          <td style="text-align:center"> 9 </td>
-         <td> Air-sea interaction: Monsoon </td>
+         <td> General circulation of the atmosphere 1 </td>
          <td style="text-align:center"></td>
          <td style="text-align:center"></td>
      </tr>
      <tr>
          <td style="text-align:center"> 10 </td>
-         <td> Air-sea interaction: Tropics </td>
+         <td> General circulation of the atmosphere 2 </td>
          <td style="text-align:center"></td>
          <td style="text-align:center"></td>
      </tr>
      <tr>
          <td style="text-align:center"> 11 </td>
-         <td> Air-sea interaction: Extratropics </td>
+         <td> Introduction to the Ocean </td>
          <td style="text-align:center"></td>
          <td style="text-align:center"></td>
      </tr>
      <tr>
          <td style="text-align:center"> 12 </td>
-         <td> Air-sea interaction: Poles </td>
+         <td> General circulation of the ocean 1 </td>
          <td style="text-align:center"></td>
          <td style="text-align:center"></td>
      </tr>
      <tr>
          <td style="text-align:center"> 13 </td>
-         <td> Air-sea interaction: gas exchange  </td>
+         <td> General circulation of the ocean 2  </td>
          <td style="text-align:center"></td>
          <td style="text-align:center"></td>
      </tr>
      <tr>
         <td style="text-align:center"> 14 </td>
-        <td> Presentation </td>
+        <td> Atmosphere, Ocean and Climate </td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
     </tr>
     <tr>
         <td style="text-align:center"> 15 </td>
-        <td> Review </td>
+        <td> Presentation </td>
         <td style="text-align:center"></td>
         <td style="text-align:center"></td>
     </tr>

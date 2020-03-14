@@ -6,4 +6,4 @@ chapter = true
 +++
 
 # Lectures
-Lecture materials will be uploaded weekly.
+Lecture materials will be uploaded on YSCEC weekly.
