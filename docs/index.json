@@ -7,18 +7,11 @@
 	"content": "Computing the zonally averaged shortwave / longwave radiation for January and July\nYou can find the instruction of the homework and the example from the following link: https://colab.research.google.com/drive/1ixTv-Ov1xVFpM1q0aDjO_FyhLDB6i7gd\nIf you click the link, you may be asked to log in. Then log in Google Colaboratory with your Yonsei email.\nIf you are comfortable with other programming languages, please feel free to use them. The data file for Matlab can be obtained from:\n OLR data SWR data  The due date is March 27th (3\u0026frasl;27).\nPlease send the link of your Jupyter notebook page or the pdf to TA.\nIf there are any issues regarding the link to the Jupyter notebook file or data, please email me.\n"
 },
 {
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week1/",
-	"title": "Week 1",
-	"tags": [],
-	"description": "",
-	"content": " Subject Introduction to the course and characteristics of the atmosphere\nReading Chapter 0 and 1 in the textbook\n  Lecture Slides   fluid_on_earth.pdf  (1900 ko)    Link to the videos See in the webpage, \u0026ldquo;Weather in a Tank\u0026rdquo;   Movies   Earth Observatory - Water Vapor Animation.mp4  (1540 ko)    "
-},
-{
 	"uri": "https://hajsong.github.io/ATM2106/syllabus/",
 	"title": "Syllabus",
 	"tags": [],
 	"description": "",
-	"content": "This is a tentative schedule and can be changed as we progress the semester.\n  week  content  lecture note  homework    1   Preview of the course      2   Introduction to coupled atmosphere-ocean system: Energy budget      3   Introduction to coupled atmosphere-ocean system: Atmosphere      4   The general circulation of the atmosphere      5   Introduction to coupled atmosphere-ocean system: Ocean      6   Boundary layer      7   The wind-driven ocean circulation      7   The thermohaline ocean circulation      8   Midterm Exam      9   Air-sea interaction: Monsoon      10   Air-sea interaction: Tropics      11   Air-sea interaction: Extratropics      12   Air-sea interaction: Poles      13   Air-sea interaction: gas exchange      14   Presentation      15   Review      16   Final exam      "
+	"content": "This is a tentative schedule and can be changed as we progress the semester.   week  content  lecture note  homework    1   Preview of the course      2   A quick introduction to Python      3   The global energy budget      4   The atmosphere: vertical structure and stability      5   The atmosphere: mean states      6   The equation of motion      7   The balanced flow      8   Midterm Exam      9   General circulation of the atmosphere 1      10   General circulation of the atmosphere 2      11   Introduction to the Ocean      12   General circulation of the ocean 1      13   General circulation of the ocean 2      14   Atmosphere, Ocean and Climate      15   Presentation      16   Final exam      "
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/homework/homework_2/",
@@ -28,18 +21,11 @@
 	"content": " Estimating geostrophic zonal wind using thermal wind equation\nYou can find the instruction of the homework and the example from here\nIf you are comfortable with other programming languages, please feel free to use them. The data file for Matlab can be obtained from:\n data  The due date is April 17th.\nPlease send the link of your Jupyter notebook page or the pdf to TA.\nIf there are any issues regarding the link to the Jupyter notebook file or data, please email me.\nMore information from TA about this homework (in Korean): HW#2 질문 답변 및 추가내용\n 온도풍이란? =\u0026gt; 두 등압면 사이의 지균풍의 차이\u2028(상층 지균풍과 하층 지균풍의 벡터차이) HW#2에서 지균풍을 계산할 때 pdf에 나와있는 온도풍 방정식을 사용하여 상층(200mb)과 하층(1000mb)의 차이를 계산하면 됩니다!\u2028 하층 지균풍은 0으로 가정\u2028 dT값은 해당 위도 1000mb ~ 200mb에서의 평균 온도값 사용\u2028 dT/dy 연직온도경도는 두 등압면 사이의 평균값으로 사용(상수)  참고사항\n T_u_inp.mat 파일이 업데이트 되었습니다. Python 외 matlab이나 다른 프로그램을 사용하는 학생들은 업데이트된\u2028파일을 이용해주세요!  "
 },
 {
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week2/",
-	"title": "Week 2",
-	"tags": [],
-	"description": "",
-	"content": " Subject The radiative energy budget on earth.\nReading Chapter 2 in the textbook\n  Lecture Slides   energybudget.pdf  (1500 ko)   energybudget_2.pdf  (800 ko)    The link to the python file (Google Colaboratory) This link give you the page that is not editable. (READ only) To actually run the code, you need to copy to your Google drive.\n"
-},
-{
 	"uri": "https://hajsong.github.io/ATM2106/lectures/",
 	"title": "Lectures",
 	"tags": [],
 	"description": "",
-	"content": " Lectures Lecture materials will be uploaded weekly.\n"
+	"content": " Lectures Lecture materials will be uploaded on YSCEC weekly.\n"
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/homework/homework_3/",
@@ -49,25 +35,11 @@
 	"content": "Computing the surface temperature trend\nThe data shows that the warming trend is greatest near the Arctic. In this homework, we get to make a plot showing the surface temperature trend and discuss the observed trends.\nYou can find the instruction of the homework and the example from here\n"
 },
 {
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week3/",
-	"title": "Week 3",
-	"tags": [],
-	"description": "",
-	"content": " Subject Convection\nReading Chapter 3 and 4 in the textbook\n  Lecture Slides   stability.pdf  (1508 ko)   vertical_structure.pdf  (2025 ko)    "
-},
-{
 	"uri": "https://hajsong.github.io/ATM2106/projects/",
 	"title": "Projects",
 	"tags": [],
 	"description": "",
-	"content": " The great Pacific garbage patch People found a high concentration of plastic debris in the middle of Pacific. Although those plastic debris are small enough not to be visible with naked eyes, the size of this \u0026lsquo;patch\u0026rsquo; can be as big as 700,000 km2, a size of Texas, USA.\nWhy is there a garbage patch in the middle of Pacific ocean where no human habitats are nearby? Arctic / Antarctic sea ice trend Under the changing climate, Arctic sea-ice and Antarctic sea-ice show very different trend. While Arctic sea-ice extent has been shrinking over the past few decades, Antarctic sea-ice extend shows the increasing trend.\nHow can we explain this?\nHurricane In the 2017, Atlantic hurricane season was one of the most destructive hurricane seasons on record.\nLots of people suffered from floods and wind damages caused by hurricane, and we even saw a high number of death toll.\nIs this something to do with global warming? Sea level rise Tide gauges and satellite observations revealed the global rising sea level trend, and the recent study finds that it has been accelerating in the last decade. (Link)\nThe sea level trend is quite variable in space with a striking positive trend in the western Pacific. What drives this spatial pattern of the sea level trend? (Mean sea level (MSL) trend estimated from the satellite observations.) Ozone hole The use of chlorofluorocarbons (CFCs) caused to ozone loss that impacts back to human by allowing more ultraviolet (UV) light.\nAnother important impact from the ozone hole is the ability to alter the atmospheric circulation.\nThe stratosphere becomes cooler when UV light is not absorbed as much as it was with more ozone. This results in larger temperature difference between equator and south pole. How does this change the climate in the Southern Hemisphere? CO2 flux Approximately 25% of anthropogenic CO2 has been taken up by the ocean. However, this does not mean that the ocean always takes up CO2 from the atmosphere.\nFor example, the mean air-sea CO2 map reveals that the ocean emits CO2 in the eastern Pacific as well as in the region south of 60 degree S in the Southern Ocean.\nWhat determines this spatial patterns? Particulate Matter (PM) and seasons It became normal to monitor the air quality before starting the day. The particulate matter (PM) data in the Seoul Metropolitan Area shows an interesting temporal evolution. The PM level has been continuously decreased since 2000 before it starts to go up after 2012. How could we understand and interpret this trend? (Fig. 1 in Kim et al. (2017), Scientific Reports)\nYour own projects You can choose the subject of the project. Possible subjects are\n Extreme weather events (flood, drought, \u0026hellip;) Fukushima nuclear power plant accident East Asia monsoon \nProject teams Team A : 오일섭, 박산울, 조우진, 김지수 : sea level\nTeam B : 권혁도, 박상욱, 최성희, 박소은 : Hurricane\nTeam C : 김관우, 백세인, 가웅현, 최은기 : ozone hole\nTeam D : 김민영, 서원범, 선우효준, 최정수 : carbon dioxide\nTeam E : 김정우, 신다빈, 이민재, 안현규 : PM and seasons\nTeam F : 문준영, 유승민, 이예지 : sea ice\nTeam G : 박민주, 이지현, 곽수지 : The great Pacific garbage patch\nPlease get together with your team members and discuss what topic your group want to explore. You can pick any topics above or find your own topic. The assignment of the topic is first-come, first-served bases. If the topic your team want to do is picked up by another team, then your team have to pick something else. Please let me know the topic of your team before the midterm week.\n"
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week4/",
-	"title": "Week 4",
-	"tags": [],
-	"description": "",
-	"content": " Subject Convection and the meridional struction of the atmosphere\nReading Chapter 4 and 5 in the textbook\n  Lecture Slides   atmos_structure.pdf  (9688 ko)   stability.pdf  (4669 ko)    "
+	"content": " The great Pacific garbage patch People found a high concentration of plastic debris in the middle of Pacific. Although those plastic debris are small enough not to be visible with naked eyes, the size of this \u0026lsquo;patch\u0026rsquo; can be as big as 700,000 km2, a size of Texas, USA.\nWhy is there a garbage patch in the middle of Pacific ocean where no human habitats are nearby? Arctic / Antarctic sea ice trend Under the changing climate, Arctic sea-ice and Antarctic sea-ice show very different trend. While Arctic sea-ice extent has been shrinking over the past few decades, Antarctic sea-ice extend shows the increasing trend.\nHow can we explain this?\nHurricane In the 2017, Atlantic hurricane season was one of the most destructive hurricane seasons on record.\nLots of people suffered from floods and wind damages caused by hurricane, and we even saw a high number of death toll.\nIs this something to do with global warming? Sea level rise Tide gauges and satellite observations revealed the global rising sea level trend, and the recent study finds that it has been accelerating in the last decade. (Link)\nThe sea level trend is quite variable in space with a striking positive trend in the western Pacific. What drives this spatial pattern of the sea level trend? (Mean sea level (MSL) trend estimated from the satellite observations.) Ozone hole The use of chlorofluorocarbons (CFCs) caused to ozone loss that impacts back to human by allowing more ultraviolet (UV) light.\nAnother important impact from the ozone hole is the ability to alter the atmospheric circulation.\nThe stratosphere becomes cooler when UV light is not absorbed as much as it was with more ozone. This results in larger temperature difference between equator and south pole. How does this change the climate in the Southern Hemisphere? CO2 flux Approximately 25% of anthropogenic CO2 has been taken up by the ocean. However, this does not mean that the ocean always takes up CO2 from the atmosphere.\nFor example, the mean air-sea CO2 map reveals that the ocean emits CO2 in the eastern Pacific as well as in the region south of 60 degree S in the Southern Ocean.\nWhat determines this spatial patterns? Particulate Matter (PM) and seasons It became normal to monitor the air quality before starting the day. The particulate matter (PM) data in the Seoul Metropolitan Area shows an interesting temporal evolution. The PM level has been continuously decreased since 2000 before it starts to go up after 2012. How could we understand and interpret this trend? (Fig. 1 in Kim et al. (2017), Scientific Reports)\nYour own projects You can choose the subject of the project. Possible subjects are\n Extreme weather events (flood, drought, \u0026hellip;) Fukushima nuclear power plant accident East Asia monsoon \nPlease get together with your team members and discuss what topic your group want to explore. You can pick any topics above or find your own topic. The assignment of the topic is first-come, first-served bases. If the topic your team want to do is picked up by another team, then your team have to pick something else. Please let me know the topic of your team before the midterm week.\n"
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/homework/",
@@ -84,13 +56,6 @@
 	"content": " The guide for the final project Please refer the attached pdf file in preparation of the final project.\n  Final Project Guide   final_guide.pdf  (1083 ko)    "
 },
 {
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week5/",
-	"title": "Week 5",
-	"tags": [],
-	"description": "",
-	"content": " Subject Equations of fluid motion\nReading Chapter 6 in the textbook\n  Lecture Slides   eqofmotion.pdf  (3603 ko)   eqofmotion_2.pdf  (267 ko)    "
-},
-{
 	"uri": "https://hajsong.github.io/ATM2106/python/",
 	"title": "Python",
 	"tags": [],
@@ -98,81 +63,18 @@
 	"content": " Python Python is a programing language that becomes very popular in many areas. The earth sciences field is not an exception. If you want specific reason for the choice of Python in this class, here they are.\n Python has been gaining solid ground in earth sciences community. Python is light, efficient and fast! Python is free!  Python up there.. Python is free and has been distributed in many different ways. One of the most popular and recommended way to obtain it is through Anaconda software distribution, which provides platform-independent package management for Python and other software in self-contained user-specific environments.\nHowever, I want to explore cloud-based python environments like Colaboratory by Google. The main advantage of using online service is that you do not have to spend your time to install Python and configure its setting to be consistent with the one I propose. Also, everyone in the class will be on the same environments so that we are all share how we solve the problem without worrying about whether this will work on other systems.\nI have experienced a clould-based Python environment but not Colaboratory. So I hope that we all get to learn how to efficiently use this platform that, I think, becomes a major trend in computer sciences.\nEnough said. Let\u0026rsquo;s dive into Google Colaboratory!\nHow to set up your acount on Google Colaboratory  Create an account (possibly your Yonsei email account works well). Create a new Jupyter notebook. Save it. Check if your saved file is in your Google Drive.  "
 },
 {
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week6/",
-	"title": "Week 6",
-	"tags": [],
-	"description": "",
-	"content": " Subject Balanced flows\nReading Chapter 7 in the textbook\n  Lecture Slides   balanced_flow.pdf  (6903 ko)    "
-},
-{
 	"uri": "https://hajsong.github.io/ATM2106/links/",
 	"title": "Links",
 	"tags": [],
 	"description": "",
-	"content": " You may find these online materials helpful.\nLink to the textbook webpage Atmosphere, Ocean, and Climate Dynamics\nComputing program  Python Google Colaboratory Jupyter Notebook Programming in Meteorology  "
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week7/",
-	"title": "Week 7",
-	"tags": [],
-	"description": "",
-	"content": " Subject General circulation of the atmosphere\nReading Chapter 8 in the textbook\n  Lecture Slides   atmos_circ.pdf  (11026 ko)   atmos_circ_2.pdf  (1477 ko)    "
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week9/",
-	"title": "Week 9",
-	"tags": [],
-	"description": "",
-	"content": " Subject Introduction to the Ocean\nReading Chapter 9 in the textbook\n  Lecture Slides   ocean_circ.pdf  (726 ko)   ocean_intro.pdf  (23735 ko)    "
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week10/",
-	"title": "Week 10",
-	"tags": [],
-	"description": "",
-	"content": " Subject Wind-driven circulation\nReading Chapter 10 in the textbook\n  Lecture Slides   ocean_winddriven.pdf  (4992 ko)    "
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week11/",
-	"title": "Week 11",
-	"tags": [],
-	"description": "",
-	"content": " Subject Wind-driven circulation II and thermohaline circulation\nReading Chapter 10 and 11 in the textbook\n  Lecture Slides   ocean_thermohaline.pdf  (2341 ko)   ocean_thermohaline2.pdf  (1792 ko)   ocean_wdc2.pdf  (3025 ko)    "
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week12/",
-	"title": "Week 12",
-	"tags": [],
-	"description": "",
-	"content": " Subject Heat transport and climate\nReading Chapter 12\n  Lecture Slides   air_sea_ENSO.pdf  (3270 ko)   climate_variability.pdf  (874 ko)   transport.pdf  (846 ko)    "
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week13/",
-	"title": "Week 13",
-	"tags": [],
-	"description": "",
-	"content": " Subject Climate variability and monsoon\nLecture notes   Lecture Slides   air_sea_climate_variability.pdf  (1184 ko)   air_sea_climate_variability2.pdf  (1137 ko)   air_sea_monsoon.pdf  (2689 ko)   air_sea_polar1.pdf  (4379 ko)    "
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/week14/",
-	"title": "Week 14",
-	"tags": [],
-	"description": "",
-	"content": " Subject Polar areas and typhoon\nLecture notes   Lecture Slides   air_sea_gas_exchange.pdf  (2589 ko)   air_sea_polar2.pdf  (1338 ko)   air_sea_typhoon.pdf  (3668 ko)    "
-},
-{
-	"uri": "https://hajsong.github.io/ATM2106/lectures/taclass/",
-	"title": "TA class lecture notes",
-	"tags": [],
-	"description": "",
-	"content": "  Lecture Slides   Lecture1_TA(final).pdf  (10537 ko)   Lecture2_TA_pdf.pdf  (3795 ko)   Lecture3_TA_pdf_1.pdf  (12697 ko)   Lecture4_TA_addition(about_HW#2).pdf  (28 ko)   Lecture4_TA_pdf.pdf  (25513 ko)   Lecture6_TA(final).pdf  (4693 ko)    "
+	"content": " You may find these online materials helpful.\nLink to the textbook webpage Atmosphere, Ocean, and Climate Dynamics\nComputing program  Programming in Meteorology in Fall 2018 Python Google Colaboratory Jupyter Notebook Programming in Meteorology  "
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/",
 	"title": "ATM2106",
 	"tags": [],
 	"description": "",
-	"content": " Atmosphere-Ocean interaction  Course Description The atmosphere and ocean control the earth climate system by transporting energy, heat, momentum and gas, as well as exchanging them across two components. Air-sea Interaction (ATM2106) course examines the influence of atmospheric circulation on the ocean, or oceanic circulation on the atmosphere, and tries to understand the climate system based on the circulation of two bodies and their interactions. This course covers the circulation and interactions in low/mid/high latitudes and small/large scales.\nInstructor  Hajoon Song Office : Science Hall #544 email : hajsong@yonsei.ac.kr telephone : 02-2123-2579  Teaching assistant  Namgung Chunil Office : Science Hall #532 email : silvan@yonsei.ac.kr  Class  Science Hall #523 Lecture : M 3:00 - 4:50 pm, W 3:00 - 4:00 pm TA lecture : W 4:00 pm - 4:50 pm  Office hours Both Chunil and Hajoon will be happy to have office hours by appointment. Please email us!\nTarget students This course is appropriate for students in the sophomore or junior year who want to gain basic knowledge about the circulation in atmosphere and ocean and the interactions between two bodies.\nThe objective Upon the completion of this course, students will grasp the concept of atmospheric and oceanic circulations in the rotating earth. Then students will explain the current climate patterns and contemporary climate phenomena using the learnings from the classes. This descriptive course also provides an introduction to upper-level classes in the Department of Atmospheric Sciences.\nPrerequisite None, but the background in math and sciences is recommended.\nGrading  Homework : 30% Midterm : 30% Final project : 30% Attendance and participation : 10%  Textbook Atmosphere, Ocean, and Climate Dynamics by John Marshall and R. Alan Plumb \n"
+	"content": " Atmosphere-Ocean interaction  Course Description The atmosphere and ocean control the earth climate system by transporting energy, heat, momentum and gas, as well as exchanging them across two components. Atmospheric and Oceanic Circulation (ATM2106) course aims to understand the circulation of the air and sea, and the climate system as a whole. This course will use both classical type of lectures and the state-of-the-art computer programming language such as Python to enhance the learning experience.\nInstructor  Hajoon Song Office : Science Hall #544 email : hajsong@yonsei.ac.kr telephone : 02-2123-2579  Teaching assistant  Ajin Cho Office : Science Hall #532 email : ajin05@yonsei.ac.kr  Class  Science Hall #523 Lecture : Tue 16:00 - 17:50, Thu 14:00 - 14:50 TA lecture : Thu 15:00 - 15:50  Office hours Both Ajin and Hajoon will be happy to have office hours by appointment. Please email us!\nTarget students This course is appropriate for students in the sophomore or junior year who want to gain basic knowledge about the circulation in atmosphere and ocean and the interactions between two bodies.\nThe objective Upon the completion of this course, students will grasp the concept of atmospheric and oceanic circulations in the rotating earth. Then students will explain the current climate patterns and contemporary climate phenomena using the learnings from the classes. This descriptive course also provides an introduction to upper-level classes in the Department of Atmospheric Sciences.\nPrerequisite None, but the background in math and sciences is recommended.\nGrading  Homework : 30% Midterm : 30% Final project : 30% Attendance and participation : 10%  Textbook Atmosphere, Ocean, and Climate Dynamics by John Marshall and R. Alan Plumb \n"
 },
 {
 	"uri": "https://hajsong.github.io/ATM2106/categories/",
