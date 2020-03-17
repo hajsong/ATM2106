@@ -49,20 +49,6 @@ You can find the instruction of the homework and the example from here</descript
     </item>
     
     <item>
-      <title>Basics</title>
-      <link>https://hajsong.github.io/ATM2106/python/basics/</link>
-      <pubDate>Tue, 05 Mar 2019 10:41:14 +0900</pubDate>
-      
-      <guid>https://hajsong.github.io/ATM2106/python/basics/</guid>
-      <description>This is the code for python 2. There are some lines that do not work with python 3 because of the grammar changes.
-Basic introduction to python adapted from &amp;lsquo;data_containers.ipynb&amp;rsquo; by Eric Firing at Univ. of Hawaii
-Let&amp;rsquo;s start with numbers.
-Numbers and Booleans Python&amp;rsquo;s system of numbers is quite simple: there are
- integers floating point numbers complex numbers Boolean (True or False) types
-  The types are determined dynamically, so operations involving integers and floating point numbers yield floating point numbers.</description>
-    </item>
-    
-    <item>
       <title>Final project guide</title>
       <link>https://hajsong.github.io/ATM2106/projects/final_guide/</link>
       <pubDate>Tue, 14 May 2019 23:55:29 +0900</pubDate>
