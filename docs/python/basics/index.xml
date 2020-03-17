@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics on air-sea interactions</title>
+    <link>https://hajsong.github.io/ATM2106/python/basics/</link>
+    <description>Recent content in Basics on air-sea interactions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 05 Mar 2019 10:41:14 +0900</lastBuildDate>
+    
+	<atom:link href="https://hajsong.github.io/ATM2106/python/basics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

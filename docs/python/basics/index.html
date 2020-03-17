@@ -23,7 +23,7 @@ if (!doNotTrack) {
 
     <link rel="icon" href="/ATM2106/images/favicon.png" type="image/png">
 
-    <title>Final project guide :: air-sea interactions</title>
+    <title>Basics :: air-sea interactions</title>
 
     
     <link href="/ATM2106/css/nucleus.css?1584418639" rel="stylesheet">
@@ -48,7 +48,7 @@ if (!doNotTrack) {
     </style>
     
   </head>
-  <body class="" data-url="/ATM2106/projects/final_guide/">
+  <body class="" data-url="/ATM2106/python/basics/">
     <nav id="sidebar" class="">
 
 
@@ -137,7 +137,7 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/ATM2106/projects/" title="Projects" class="dd-item 
-        parent
+        
         
         
         ">
@@ -161,7 +161,7 @@ if (!doNotTrack) {
  
   
     
-      <li data-nav-id="/ATM2106/projects/final_guide/" title="Final project guide" class="dd-item active">
+      <li data-nav-id="/ATM2106/projects/final_guide/" title="Final project guide" class="dd-item ">
         <a href="/ATM2106/projects/final_guide/">
         Final project guide
         
@@ -277,7 +277,7 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/ATM2106/python/" title="Python" class="dd-item 
-        
+        parent
         
         
         ">
@@ -304,8 +304,8 @@ if (!doNotTrack) {
   
     
     <li data-nav-id="/ATM2106/python/basics/" title="Basics" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/ATM2106/python/basics/">
@@ -389,7 +389,7 @@ if (!doNotTrack) {
                   <span class="links">
                  
                  
-                   Final project guide 
+                   Basics 
                  
                   </span>
                 </div>
@@ -400,9 +400,15 @@ if (!doNotTrack) {
 <ul>
 <li>
 <ul>
+<li><a href="#basic-introduction-to-python">Basic introduction to python</a>
+<ul>
 <li>
 <ul>
-<li><a href="#the-guide-for-the-final-project">The guide for the final project</a></li>
+<li><a href="#numbers-and-booleans">Numbers and Booleans</a></li>
+<li><a href="#strings">Strings</a></li>
+<li><a href="#sequences-tuples-and-lists">Sequences: tuples and lists</a></li>
+<li><a href="#sequences-indexing">Sequences: indexing</a></li>
+</ul></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -418,7 +424,7 @@ if (!doNotTrack) {
         
         <div id="body-inner">
           
-            <h1>Final project guide</h1>
+            <h1>Basics</h1>
           
 
         
@@ -426,41 +432,232 @@ if (!doNotTrack) {
 
 
 
-<h3 id="the-guide-for-the-final-project">The guide for the final project</h3>
+<p>This is the code for python 2. There are some lines that do not work with python 3 because of the grammar changes.</p>
 
-<p>Please refer the attached pdf file in preparation of the final project.</p>
+<h2 id="basic-introduction-to-python">Basic introduction to python</h2>
 
-<section class="attachments ">
-    <label>
-        <i class="fas fa-paperclip" aria-hidden="true"></i>
-        Final Project Guide
-    </label>
-    
-        
-    
-    <div class="attachments-files">
-    
-        
-        
-            
-                <li>
-                    <a href="/ATM2106/projects/final_guide.files/final_guide.pdf" >
-                        final_guide.pdf
-                    </a>
-                    (1083 ko)
-                </li>
-            
-        
-    
-    <div>
-    
-</section>
+<p>adapted from &lsquo;data_containers.ipynb&rsquo; by Eric Firing at Univ. of Hawaii</p>
+
+<p>Let&rsquo;s start with numbers.</p>
+
+<h4 id="numbers-and-booleans">Numbers and Booleans</h4>
+
+<p>Python&rsquo;s system of numbers is quite simple: there are</p>
+
+<ul>
+<li>integers</li>
+<li>floating point numbers</li>
+<li>complex numbers</li>
+<li>Boolean (<code>True</code> or <code>False</code>) types<br /></li>
+</ul>
+
+<p>The types are determined dynamically, so operations involving integers and floating point numbers yield floating point numbers.</p>
+
+<pre><code class="language-python">print 1 + 2
+print 1.0 + 2
+print(1 + 2)
+</code></pre>
+
+<pre><code>3
+3.0
+3
+</code></pre>
+
+<p>Division can be tricky because traditional computer languages use integer division on integers.  This was the case by default with Python 2.</p>
+
+<pre><code class="language-python">print 4/3
+print 4.0/3
+</code></pre>
+
+<pre><code>1
+1.33333333333
+</code></pre>
+
+<p>There are some built-in functions that operate on numbers, e.g.:</p>
+
+<pre><code class="language-python">print int(4/3)
+print round(4/3)
+print abs(4.2 - 5) # Note binary floating point inability
+                   # to represent a decimal number exactly.
+print pow(2, 3)
+</code></pre>
+
+<pre><code>1
+1.0
+0.8
+8
+</code></pre>
+
+<p>The <code>pow()</code> function can be replaced by</p>
+
+<pre><code class="language-python">print 2**3
+</code></pre>
+
+<pre><code>8
+</code></pre>
+
+<p>For more math functions, one can import the <code>math</code> module from the standard library:</p>
+
+<pre><code class="language-python">import math
+print(math.sin(1))
+print(math.sqrt(2))
+</code></pre>
+
+<pre><code>0.841470984808
+1.41421356237
+</code></pre>
+
+<p>We will rarely use the <code>math</code> module, however, because <code>numpy</code> provides the same functionality and much more.</p>
+
+<p>Boolean values are either <code>True</code> or <code>False</code>, and result from conditional expressions like this:</p>
+
+<pre><code class="language-python">print(&quot;1 &gt; 2 is&quot;, 1 &gt; 2, &quot;but 1 &lt; 2 is&quot;, 1 &lt; 2)
+</code></pre>
+
+<pre><code>('1 &gt; 2 is', False, 'but 1 &lt; 2 is', True)
+</code></pre>
+
+<p>Here is a more complex conditional expression:</p>
+
+<pre><code class="language-python">print(1 &gt; 2 or 3 &lt; 4)
+</code></pre>
+
+<pre><code>True
+</code></pre>
+
+<h4 id="strings">Strings</h4>
+
+<p>Python strings can be created with the <code>str()</code> function, and as literals using single quotes, double quotes, triple single quotes, or triple double quotes.  The triples can enclose blocks of text spanning multiple lines. The following are all valid strings, each assigned to a variable name:</p>
+
+<pre><code class="language-python">a = 'Single quotes'
+b = &quot;Double quotes&quot;
+c = &quot;a string that has 'single quotes' inside it&quot;
+d = &quot;&quot;&quot;This is a multiline
+sentence string, ending with a linefeed.
+&quot;&quot;&quot;
+e = '''
+This is also valid. It starts and ends with a linefeed.
+'''
+for example in (a, b, c, d, 3):
+    print(example)
+</code></pre>
+
+<pre><code>Single quotes
+Double quotes
+a string that has 'single quotes' inside it
+This is a multiline
+sentence string, ending with a linefeed.
+
+3
+</code></pre>
+
+<p>Strings can be added (concatenated):</p>
+
+<pre><code class="language-python">print(d + e)
+</code></pre>
+
+<pre><code>This is a multiline
+sentence string, ending with a linefeed.
+
+This is also valid. It starts and ends with a linefeed.
+</code></pre>
+
+<h4 id="sequences-tuples-and-lists">Sequences: tuples and lists</h4>
+
+<p>Tuples and lists are very general sequences&ndash;that is, they are containers that preserve order, and they can contain any kind of object at all.  There is one big practical difference: tuples are <em>immutable</em>, lists are <em>mutable</em>.</p>
+
+<p>To create a tuple from scratch, use round parentheses and commas.</p>
+
+<pre><code class="language-python">t1 = (1, 2)
+t2 = (3, (4, 5), 7, 8, &quot;some string&quot;)
+print t1
+print t2
+print t1+t2
+print t1*2
+</code></pre>
+
+<pre><code>(1, 2)
+(3, (4, 5), 7, 8, 'some string')
+(1, 2, 3, (4, 5), 7, 8, 'some string')
+(1, 2, 1, 2)
+</code></pre>
+
+<p>Lists have many methods, and support addition and multiplication:</p>
+
+<pre><code class="language-python">a = [&quot;list1&quot;, 1, 2]
+b = [&quot;list2&quot;, 3, 4]
+print a + b
+print a * 2
+c = a.extend(b)     # 'extend' adds elements to the end (assigning to c only to suppress printing)
+print a             # This is identical to the sum, a + b, above.
+c = a.append(b)     # 'append' addes the argument as a whole
+print a
+</code></pre>
+
+<pre><code>['list1', 1, 2, 'list2', 3, 4]
+['list1', 1, 2, 'list1', 1, 2]
+['list1', 1, 2, 'list2', 3, 4]
+['list1', 1, 2, 'list2', 3, 4, ['list2', 3, 4]]
+</code></pre>
+
+<h4 id="sequences-indexing">Sequences: indexing</h4>
+
+<p>Lists, tuples, and strings all support the same indexing syntax.</p>
+
+<ul>
+<li>Python indexing starts from zero.</li>
+<li>A sequence of N elements therefore has indices ranging from 0 through N-1.</li>
+<li>Negative indices count backwards from the end; they are handled by adding N to the negative index, so -1 is the last element, -2 the one before that, etc.</li>
+<li>Basic indexing accesses a single element or a range (<em>slice</em>).</li>
+<li>A slice <em>includes</em> the start of a range but <em>excludes</em> the end.</li>
+<li>A slice has an optional step, for subsampling a range.</li>
+</ul>
+
+<pre><code class="language-python"># Using the built-in &quot;range&quot; function,
+# make a list on which we can practice indexing:
+x = list(range(0, 100, 10))
+print(x)
+print range(0,100,10)
+</code></pre>
+
+<pre><code>[0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+[0, 10, 20, 30, 40, 50, 60, 70, 80, 90]
+</code></pre>
+
+<p>Take the first 5 values, then the last 5 values:</p>
+
+<pre><code class="language-python">print(x[:5])
+print(x[-5:])
+</code></pre>
+
+<pre><code>[0, 10, 20, 30, 40]
+[50, 60, 70, 80, 90]
+</code></pre>
+
+<p>See how easy that was?
+Now take every second value starting from the second (index 1):</p>
+
+<pre><code class="language-python">print x[1::2]
+</code></pre>
+
+<pre><code>[10, 30, 50, 70, 90]
+[40, 30, 20, 10, 0]
+</code></pre>
+
+<p>In the above examples we are indexing a list with a slice, so we are getting a list back, even if it has only one element in it, or if it is empty.  If we want to get an element from the list, then we index with a single integer:</p>
+
+<pre><code class="language-python">print(x[0])
+print(x[-1])
+</code></pre>
+
+<pre><code>0
+90
+</code></pre>
 
 
 <footer class=" footline" >
 	
 </footer>
-
 
         
         </div> 
@@ -528,7 +725,6 @@ if (!doNotTrack) {
             
                 
                     
-                    
                 
                 
 
@@ -541,7 +737,6 @@ if (!doNotTrack) {
             
             
                 
-                    
                     
                 
                 
@@ -561,9 +756,6 @@ if (!doNotTrack) {
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -629,6 +821,7 @@ if (!doNotTrack) {
             
                 
                     
+                    
                 
                 
 
@@ -643,6 +836,7 @@ if (!doNotTrack) {
             
             
                 
+                    
                     
                 
                 
@@ -662,6 +856,9 @@ if (!doNotTrack) {
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -710,4 +907,3 @@ if (!doNotTrack) {
 
   </body>
 </html>
-
