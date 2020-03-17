@@ -3,7 +3,7 @@ title: "ATM2106"
 ---
 <h1 style="background: url(images/img1banner.jpg);
            color: white;">
-Atmosphere-Ocean interaction
+Atmospheric and Oceanic Circulation
 </h1>
 
 #### Course Description
@@ -42,7 +42,7 @@ None, but the background in math and sciences is recommended.
 #### Grading
 + Homework : 30%
 + Midterm : 30%
-+ Final project : 30%
++ Final exam (or project) : 30%
 + Attendance and participation : 10%
 
 #### Textbook
